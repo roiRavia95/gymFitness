@@ -1,0 +1,396 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 07:40:18
+* VERSION: 1.3.36
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.4.7                                 |7.4.2
+OS__________________: WINNT                                 |Darwin
+CREATED_____________: 2020-09-16 07:34:48
+WP VERSION__________: 5.5.1
+DUP VERSION_________: 1.3.36
+DB__________________: 10.4.13
+DB TABLES___________: 13
+DB ROWS_____________: 610
+DB FILE SIZE________: 1.83MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.2 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.2.34 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.4.2 mod_ssl/2.2.34 OpenSSL/1.0.2o DAV/2 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.24.0
+DOC ROOT____________: "/Applications/MAMP/htdocs/La-Pizzeria"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/La-Pizzeria/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/Applications/MAMP/htdocs/La-Pizzeria/20200916_lapizzeriaf09f8d95_[HASH]_20200916073448_archive.zip"
+SIZE________________: 38.69MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+
+STEP-1 COMPLETE @ 07:40:21 - RUNTIME: 2.4377 sec.
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) [CODE:2|FILE:/Applications/MAMP/htdocs/La-Pizzeria/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: YES) [CODE:2|FILE:/Applications/MAMP/htdocs/La-Pizzeria/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'admin'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'admin'@'localhost' (using password: NO) [CODE:2|FILE:/Applications/MAMP/htdocs/La-Pizzeria/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'admin'@'localhost' (using password: NO)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) [CODE:2|FILE:/Applications/MAMP/htdocs/La-Pizzeria/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: YES)[ERRNO:1045]
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) [CODE:2|FILE:/Applications/MAMP/htdocs/La-Pizzeria/dup-installer/classes/class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'root'@'localhost' (using password: NO)[ERRNO:1045]
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 07:43:33
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "create"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.26 -- Build Server: 10.4.13
+FILE SIZE:	dup-database__[HASH].sql (744.65KB)
+TIMEOUT:	5000
+MAXPACK:	4194304
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/Applications/MAMP/htdocs/La-Pizzeria/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.26] is less than the build version [10.4.13].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	125
+
+wp_commentmeta: (0)
+wp_comments: (4)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (132)
+wp_postmeta: (290)
+wp_posts: (101)
+wp_term_relationships: (24)
+wp_term_taxonomy: (6)
+wp_termmeta: (0)
+wp_terms: (6)
+wp_usermeta: (27)
+wp_users: (1)
+Removed '27' cache/transient rows
+
+INSERT DATA RUNTIME: 0.3873 sec.
+STEP-2 COMPLETE @ 07:43:34 - RUNTIME: 0.3918 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 07:43:42
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "La Pizzeria 🍕"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "C:/xampp/htdocs/La-Pizzeria"
+path_new______________: "/Applications/MAMP/htdocs/La-Pizzeria"
+siteurl_______________: "http://localhost:8888/La-Pizzeria"
+url_old_______________: "http://localhost:8080/La-Pizzeria"
+url_new_______________: "http://localhost:8888/La-Pizzeria"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  2:"C:\/xampp\/htdocs\/La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2FLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  4:"C:\xampp\htdocs\La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  5:"C:\\xampp\\htdocs\\La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5CLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  7:"//localhost:8080/La-Pizzeria" ====================> "//localhost:8888/La-Pizzeria"
+	SEARCH  8:"\/\/localhost:8080\/La-Pizzeria" =================> "\/\/localhost:8888\/La-Pizzeria"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2FLa-Pizzeria" ============> "%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+	SEARCH 10:"https://localhost:8888/La-Pizzeria" ==============> "http://localhost:8888/La-Pizzeria"
+	SEARCH 11:"https:\/\/localhost:8888\/La-Pizzeria" ===========> "http:\/\/localhost:8888\/La-Pizzeria"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria" ====> "http%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   132][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  2:"C:\/xampp\/htdocs\/La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2FLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  4:"C:\xampp\htdocs\La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  5:"C:\\xampp\\htdocs\\La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5CLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  7:"//localhost:8080/La-Pizzeria" ====================> "//localhost:8888/La-Pizzeria"
+	SEARCH  8:"\/\/localhost:8080\/La-Pizzeria" =================> "\/\/localhost:8888\/La-Pizzeria"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2FLa-Pizzeria" ============> "%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+	SEARCH 10:"https://localhost:8888/La-Pizzeria" ==============> "http://localhost:8888/La-Pizzeria"
+	SEARCH 11:"https:\/\/localhost:8888\/La-Pizzeria" ===========> "http:\/\/localhost:8888\/La-Pizzeria"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria" ====> "http%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:   290][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  2:"C:\/xampp\/htdocs\/La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2FLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  4:"C:\xampp\htdocs\La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  5:"C:\\xampp\\htdocs\\La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5CLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  7:"//localhost:8080/La-Pizzeria" ====================> "//localhost:8888/La-Pizzeria"
+	SEARCH  8:"\/\/localhost:8080\/La-Pizzeria" =================> "\/\/localhost:8888\/La-Pizzeria"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2FLa-Pizzeria" ============> "%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+	SEARCH 10:"https://localhost:8888/La-Pizzeria" ==============> "http://localhost:8888/La-Pizzeria"
+	SEARCH 11:"https:\/\/localhost:8888\/La-Pizzeria" ===========> "http:\/\/localhost:8888\/La-Pizzeria"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria" ====> "http%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   101][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  2:"C:\/xampp\/htdocs\/La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2FLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  4:"C:\xampp\htdocs\La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  5:"C:\\xampp\\htdocs\\La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5CLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  7:"//localhost:8080/La-Pizzeria" ====================> "//localhost:8888/La-Pizzeria"
+	SEARCH  8:"\/\/localhost:8080\/La-Pizzeria" =================> "\/\/localhost:8888\/La-Pizzeria"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2FLa-Pizzeria" ============> "%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+	SEARCH 10:"https://localhost:8888/La-Pizzeria" ==============> "http://localhost:8888/La-Pizzeria"
+	SEARCH 11:"https:\/\/localhost:8888\/La-Pizzeria" ===========> "http:\/\/localhost:8888\/La-Pizzeria"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria" ====> "http%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  2:"C:\/xampp\/htdocs\/La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2FLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  4:"C:\xampp\htdocs\La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  5:"C:\\xampp\\htdocs\\La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5CLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  7:"//localhost:8080/La-Pizzeria" ====================> "//localhost:8888/La-Pizzeria"
+	SEARCH  8:"\/\/localhost:8080\/La-Pizzeria" =================> "\/\/localhost:8888\/La-Pizzeria"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2FLa-Pizzeria" ============> "%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+	SEARCH 10:"https://localhost:8888/La-Pizzeria" ==============> "http://localhost:8888/La-Pizzeria"
+	SEARCH 11:"https:\/\/localhost:8888\/La-Pizzeria" ===========> "http:\/\/localhost:8888\/La-Pizzeria"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria" ====> "http%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  2:"C:\/xampp\/htdocs\/La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2FLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  4:"C:\xampp\htdocs\La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  5:"C:\\xampp\\htdocs\\La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5CLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  7:"//localhost:8080/La-Pizzeria" ====================> "//localhost:8888/La-Pizzeria"
+	SEARCH  8:"\/\/localhost:8080\/La-Pizzeria" =================> "\/\/localhost:8888\/La-Pizzeria"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2FLa-Pizzeria" ============> "%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+	SEARCH 10:"https://localhost:8888/La-Pizzeria" ==============> "http://localhost:8888/La-Pizzeria"
+	SEARCH 11:"https:\/\/localhost:8888\/La-Pizzeria" ===========> "http:\/\/localhost:8888\/La-Pizzeria"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria" ====> "http%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  2:"C:\/xampp\/htdocs\/La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2FLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  4:"C:\xampp\htdocs\La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  5:"C:\\xampp\\htdocs\\La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5CLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  7:"//localhost:8080/La-Pizzeria" ====================> "//localhost:8888/La-Pizzeria"
+	SEARCH  8:"\/\/localhost:8080\/La-Pizzeria" =================> "\/\/localhost:8888\/La-Pizzeria"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2FLa-Pizzeria" ============> "%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+	SEARCH 10:"https://localhost:8888/La-Pizzeria" ==============> "http://localhost:8888/La-Pizzeria"
+	SEARCH 11:"https:\/\/localhost:8888\/La-Pizzeria" ===========> "http:\/\/localhost:8888\/La-Pizzeria"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria" ====> "http%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    27][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  2:"C:\/xampp\/htdocs\/La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2FLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  4:"C:\xampp\htdocs\La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  5:"C:\\xampp\\htdocs\\La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5CLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  7:"//localhost:8080/La-Pizzeria" ====================> "//localhost:8888/La-Pizzeria"
+	SEARCH  8:"\/\/localhost:8080\/La-Pizzeria" =================> "\/\/localhost:8888\/La-Pizzeria"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2FLa-Pizzeria" ============> "%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+	SEARCH 10:"https://localhost:8888/La-Pizzeria" ==============> "http://localhost:8888/La-Pizzeria"
+	SEARCH 11:"https:\/\/localhost:8888\/La-Pizzeria" ===========> "http:\/\/localhost:8888\/La-Pizzeria"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria" ====> "http%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"C:/xampp/htdocs/La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  2:"C:\/xampp\/htdocs\/La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  3:"C%3A%2Fxampp%2Fhtdocs%2FLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  4:"C:\xampp\htdocs\La-Pizzeria" =====================> "/Applications/MAMP/htdocs/La-Pizzeria"
+	SEARCH  5:"C:\\xampp\\htdocs\\La-Pizzeria" ==================> "\/Applications\/MAMP\/htdocs\/La-Pizzeria"
+	SEARCH  6:"C%3A%5Cxampp%5Chtdocs%5CLa-Pizzeria" =============> "%2FApplications%2FMAMP%2Fhtdocs%2FLa-Pizzeria"
+	SEARCH  7:"//localhost:8080/La-Pizzeria" ====================> "//localhost:8888/La-Pizzeria"
+	SEARCH  8:"\/\/localhost:8080\/La-Pizzeria" =================> "\/\/localhost:8888\/La-Pizzeria"
+	SEARCH  9:"%2F%2Flocalhost%3A8080%2FLa-Pizzeria" ============> "%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+	SEARCH 10:"https://localhost:8888/La-Pizzeria" ==============> "http://localhost:8888/La-Pizzeria"
+	SEARCH 11:"https:\/\/localhost:8888\/La-Pizzeria" ===========> "http:\/\/localhost:8888\/La-Pizzeria"
+	SEARCH 12:"https%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria" ====> "http%3A%2F%2Flocalhost%3A8888%2FLa-Pizzeria"
+--------------------------------------
+SCANNED:	Tables:13 	|	 Rows:591 	|	 Cells:4321 
+UPDATED:	Tables:4 	|	 Rows:107 	|	 Cells:111 
+ERRORS:		0 
+RUNTIME:	0.053000 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""la-pizzeria""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 07:43:42 - RUNTIME: 0.0968 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
